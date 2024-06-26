@@ -30,6 +30,7 @@ public class ScannerEx {
             }
             System.out.println("출력 문자열 : " + data);
 
+
         }
 
         System.out.println("종료");
