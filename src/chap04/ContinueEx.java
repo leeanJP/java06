@@ -9,5 +9,8 @@ public class ContinueEx {
             }
             System.out.println(i);
         }
+        String test = "asd";
+
+
     }
 }
