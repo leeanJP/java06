@@ -1,8 +1,8 @@
-package chap05;
+package sol;
 
 import java.util.Scanner;
 
-public class SortArray {
+public class Multiple3 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -13,20 +13,13 @@ public class SortArray {
             n[i] = sc.nextInt();
         }
 
-        //버블 정렬
         for(int i=0; i<n.length; i++){
-            for(int j=i; j<n.length; j++){
-                if(n[i] > n[j]){
-                    int tmp = n[i];
-                    n[i] = n[j];
-                    n[j] = tmp;
-                }
+            if(n[i] %3 == 0){
+                System.out.print(n[i] + " ");
             }
         }
+        sc.close();
 
-        for(int i : n){
-            System.out.print( i + " ");
-        }
 
 
     }

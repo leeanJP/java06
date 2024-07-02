@@ -1,4 +1,4 @@
-package chap05;
+package sol;
 
 import java.util.Scanner;
 
