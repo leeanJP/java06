@@ -1,0 +1,34 @@
+
+자바 배열은 길이를 조정할 수 없고 같은 자료형끼리만 배열에 담을 수 있다.
+
+List : 순서를 유지하고 저장 , 중복 가능
+Set  : 순서를 유지 X , 중복 불가능
+Map  : key , value 형태로 저장 , 키는 중복이 안된다.
+
+
+List
+객체를 인덱스로 관리한다.
+객체를 저장하면 인덱스가 부여되고 인덱스로 객체를 검색, 삭제 할 수 있다.
+List에는 ArrayList , Vector, LikedList 등이 있다.
+
+ArrayList : 제한 없이 객체를 추가 할 수 있다.
+Vector : 멀티 스레드 환경에서 주로 사용됨, 동기화된 메소드로 구성되어 있다.
+LinkedList : 인접 객체를 연결해서 관리한다.
+빈번하게 추가 삭제가 일어나는 경우 사용 한다.
+
+
+Set
+저장 순서가 유지 X
+객체를 중복해서 저장할 수 없다.
+null은 하나만 저장할 수 있다.
+
+
+Map 컬렉션
+Key Value 형태로 객체를 저장
+Key 중복 안된다. Value 중복 허용
+
+
+LIFO 후입선출 Last In First Out
+Stack
+FIFO 선입선출 First In First Out
+Queue
